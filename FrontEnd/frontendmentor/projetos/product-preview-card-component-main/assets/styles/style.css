@@ -1,0 +1,104 @@
+body{
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+}
+
+main{
+    width: 650px;
+    height: 488px;
+    background-color: white;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.09);
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+#desktop{
+    width: 325px;
+    height: 488px;
+    border-radius: 10px;
+}
+
+section{
+    width: 253px;
+    height: 415px;
+    margin: 38px 34px;
+}
+
+h2{
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--grey);
+    font-weight: 500;
+    margin: 0;
+}
+
+h1{
+    font-family: "Faustina", serif;
+    color: var(--black);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 20px 0 28px 0;
+}
+
+p{
+    font-size: 15px;
+    color: var(--grey);
+    margin: 0;
+    line-height: 27px;
+}
+
+div#price{
+    display: flex;
+    flex-direction: row;
+    font-family: "Faustina", serif;
+    margin: 35px 0 29px 0;
+    align-items: center;
+}
+
+div#price p#new{
+    font-size: 40px;
+    color: var(--green);
+    font-weight: 800;
+    margin-right: 16px;
+}
+
+div#price p#old{
+    font-size: 15px;
+    color: var(--grey);
+    text-decoration: line-through;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    width: 253px;
+    height: 50px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button img{
+    margin-left: 68px;
+}
+
+button p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--black);
+}

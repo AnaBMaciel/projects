@@ -1,0 +1,18 @@
+@charset "UFT-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Cores */
+:root{
+    --cinza-preto: #0a0a0a;
+    --cinza-escuro: #141414;
+    --cinza-medio:#1F1F1F;
+    --cinza-claro:#333333;
+    --verde:#C1DE50;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}

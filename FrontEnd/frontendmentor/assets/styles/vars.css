@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /* Cores */
+        --cor001: #001A6E;
+        --cor002: #415FC3;
+        --cor003: #7792ED;
+        --cor004: #ADDEFF;
+        --preto: #000;
+        --branco: #fff;
+        --cor007: #f6fcff;
+}

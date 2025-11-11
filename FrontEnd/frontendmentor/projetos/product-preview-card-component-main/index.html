@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/vars.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/style-mobile.css" media="screen and (max-width: 468px)" >
+
+    <!-- Adding some fonts from Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>Product preview card component main</title>
+</head>
+<body>
+    <main>
+        <picture> 
+            <source 
+            media="(max-width: 468px)" 
+            srcset="assets/images/image-product-mobile.jpg">
+            <img id="desktop" src="assets/images/image-product-desktop.jpg" alt="a bottle of perfume">
+        </picture>
+
+        <section>
+            <h2>Perfume</h2>
+            <h1>Gabrielle Essence Eau de Parfum</h1>
+            <p id="describe">A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANNEL.</p>
+            <div id="price">
+                <p id="new">$149.99</p>
+                <p id="old">$169.99</p>
+            </div>
+            <button>
+                <img src="assets/images/icon-cart.svg" alt="a draw of a shopping cart">
+                <p>Add to Cart</p>
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Challenge from <a href="https://www.frontendmentor.io/challenges">Frontend Mentor.</a> Coded by <a href="https://github.com/AnaBMaciel">Ana Maciel.</a></p>
+    </footer>
+</body>
+</html>

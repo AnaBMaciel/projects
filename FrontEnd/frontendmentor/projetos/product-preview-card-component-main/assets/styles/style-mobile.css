@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 1. Override the main container for mobile layout */
+main {
+    /* Set max-width for the card, and use 100% for screens smaller than max-width */
+    width: 100%;
+    max-width: 360px; 
+    height: auto; /* Allow height to adjust for stacked content */
+    flex-direction: column; /* Change from row (desktop) to column (mobile) */
+}
+
+/* 2. Fix the picture element (Critical Fix) */
+/* Make the picture tag a block element so it respects the full width */
+main picture {
+    display: block; 
+    width: 100%; 
+    border-radius: 10px; /* Apply border-radius only to the top */
+}
+
+/* 3. Override the fixed ID image width */
+/* The ID selector is needed to override the 325px rule above */
+#desktop {
+    width: 100%; /* Force image to fill the picture parent */
+    height: auto; /* Scale height proportionally */
+    border-radius: 10px; /* Match picture border-radius */
+}
+
+/* 4. Adjust the text section for the new stacked layout */
+section {
+    width: 100%; /* Section fills the full width of main (360px max) */
+    height: auto;
+    margin: 0; /* Reset desktop margin */
+    padding: 24px; /* Add padding inside the section */
+}
+
+h1{
+    font-size: 34px;
+    padding-right: 65px;
+}
+
+p#describe{
+    font-size: 14px;
+}
+
+/* 5. Adjust the button width to fill the new section size */
+button {
+    width: 100%;
+    /* Recenter cart button content for the wider mobile button */
+    justify-content: center; 
+}
+button img {
+    margin-left: 0; 
+}
+
+footer p {
+    font-size: 13px;
+}

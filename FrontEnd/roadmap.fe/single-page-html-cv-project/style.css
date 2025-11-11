@@ -1,0 +1,43 @@
+/* Importing a font from Google Fonts */
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight(200 1000);
+  font-style: normal;
+}
+
+body{
+    max-width: 70vw;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 2rem;
+    margin-top: 15px;
+    font-family: "Nunito", serif;
+    font-size: 12px;
+}
+
+h2{
+    color: rgb(83, 207, 83);
+    font-size: 12px;
+
+}
+
+h3{
+    color: rgb(57, 167, 204);
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 0px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
