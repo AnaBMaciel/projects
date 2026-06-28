@@ -1,0 +1,35 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: var(--blue-950);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: var(--blue-900);
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+main .nft-image{
+    width: 85%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+main h1{
+    color: white;
+    font-size: 18px;
+    
+}
