@@ -4,10 +4,10 @@ body{
     background-color: var(--blue-950);
     display: flex;
     justify-content: center;
-   align-items: center;
-    height: 100vh;
+    align-items: center;
+    min-height: 100vh;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 div.img{
@@ -144,8 +144,35 @@ a.link:hover{
 @media (max-width: 600px){
     main{
         width: 85%;
-        height: 90%;
+        height: 80%;
     }
 
+    main .text{
+        margin-left: 25px;
+    }
     
+    main .text .link {
+        font-size: 22px;
+    }
+
+    main .text p{
+        font-size: 16px;
+    }
+    
+    main .price-time .price p{
+        font-size: 16px;
+    }
+
+    main .price-time .time p{
+        font-size: 16px;
+    }
+
+    main .author p{
+        font-size: 16px;
+    }
+
+    main .author img{
+        width: 30px;
+        height: 30px;
+    }
 }
