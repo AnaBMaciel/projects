@@ -4,11 +4,18 @@
 
 /* 1. Override the main container for mobile layout */
 main {
-    /* Set max-width for the card, and use 100% for screens smaller than max-width */
+    width: calc(100% - 32px);
+    max-width: 360px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+picture,
+picture img {
+    display: block;
     width: 100%;
-    max-width: 360px; 
-    height: auto; /* Allow height to adjust for stacked content */
-    flex-direction: column; /* Change from row (desktop) to column (mobile) */
+    height: auto;
 }
 
 /* 2. Fix the picture element (Critical Fix) */
@@ -16,6 +23,7 @@ main {
 main picture {
     display: block; 
     width: 100%; 
+    height: auto;
     border-radius: 10px; /* Apply border-radius only to the top */
 }
 
@@ -55,5 +63,10 @@ button img {
 }
 
 footer p {
-    font-size: 13px;
+    font-size: 12px;
+}
+
+picture img {
+    max-width: 100%;
+    height: auto;
 }

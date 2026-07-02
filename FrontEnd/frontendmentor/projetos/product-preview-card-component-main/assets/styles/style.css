@@ -3,7 +3,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
 }
@@ -20,7 +19,6 @@ main{
 
 #desktop{
     width: 325px;
-    height: 488px;
     border-radius: 10px;
 }
 
